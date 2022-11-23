@@ -1,0 +1,428 @@
+*
+{
+    box-sizing: border-box;
+}
+@media (max-width:992px)
+{
+    .section2 , .section3
+    {
+        padding: 25px 0;
+    }
+    .section2 .container ,.section3 .container,.section5 .container ,.section6 .container, .section7 .container 
+    {
+        width: 100%;
+        margin:20px 0;
+    }
+    .section2 .bottom , .section3 .bottom , .section4 .container
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 .child
+    {
+        margin: 0 auto;
+        padding: 40px 24px;
+    }
+
+
+
+
+    .section3 .bottom .image
+    {
+        width: 430px;
+        height: 300px; 
+    }
+
+
+
+    .section4
+    {
+        padding: 0;
+    }
+    .section4 .member
+    {
+        width: 300px;
+        padding: 10px 0;
+    }
+
+
+
+    
+
+}
+@media (max-width:768px)
+{
+    .navbar .container
+    {
+        width: 450px;
+    }
+    .parent
+    {
+        display: flex;
+    }
+    .navbar ul
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top:100%;
+        width: 415px;
+        opacity: 0;
+        transition:opacity 1s;
+        background-color: #3a3939;
+    }
+    .navbar ul li
+    {
+        margin: 10px 0;
+    }
+    .navbar ul.myStyle
+    {
+        opacity: 1;
+    }
+    #logOut
+{
+    margin-left: 0% ;
+}
+   
+    h1 
+    {
+        font-size: 40px;
+    }
+    .home h3
+    {
+        font-size: 22px;
+    }
+    .home h4
+    {
+        font-size: 20px;
+    }
+
+
+
+
+    .section1 .container
+    {
+        flex-wrap: wrap;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .section1 .left
+    {
+        display: block;
+        width:430px ;
+        height: 500px;
+        margin-bottom: 25px;
+    }
+    .section1 .left .back
+    {
+        display: none;
+    }
+    .section1 .left .front
+    {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .section1 .right
+    {
+        width: 430px;
+    }
+    .section1 .bottom_sec ul
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+    .section1 .bottom_sec li
+    {   
+        width: 300px;
+    }
+    .section1 .bottom_sec button
+    {
+        padding: 12px 10px; 
+    }
+
+
+    .section2 .child
+    {
+        width: 430px;
+    }
+    .section2 h2 ,.section3 h2 ,.section5 h2,.section6 h2,.section7 h2
+    {
+        font-size: 30px;
+    }
+
+
+
+    .section5 .bottom
+    {
+        width: 430px;
+        display: block;
+    }
+    .section5 .left
+    {
+        width: 100%;
+        height: 160px;
+    }
+    .section5 .image
+    {
+        top: 40px;
+        left: 170px;    
+        width: 100px;
+        height: 100px;
+    }
+    .section5 .right
+    {
+        margin: auto;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+
+
+    .section6 .bottom
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6 h3
+    {
+        font-size: 20px;
+    }
+    .section6 p
+    {
+        font-size: 16px;
+    }
+    .section6 a
+    {
+        font-size: 13px;
+    }
+
+    form
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .section7 .halfwidth ,.section7 .fullwidth
+    {
+        width:400px;
+    }
+    .section7 .bottom
+    {
+        width: 400px;
+    }
+    form button
+    {
+        width: 150px;
+    }
+}
+@media (min-width:769px) and (max-width:992px)
+{
+    .navbar .container
+    {
+        width: 800px;
+    }
+    .navbar ul
+    {
+        width: 70%;
+    }
+
+
+
+
+
+    .section1 .container
+    {
+        margin: 0;
+        width: 100%;
+    }
+    .section1 .left
+    {
+        width:470px ;
+        height: 470px;
+    }
+    .section1 .left .back
+    {
+        display: none;
+    }
+    .section1 .left .front
+    {
+        background-size: 100% 100%;
+        width:400px ;
+        height: 450px;
+        margin:auto;
+        top: auto;
+        left: auto;
+    }
+    .section1 .right
+    {
+        width: 350px;   
+    }
+    .section1 .right p
+    {
+        font-size: 16px;
+    }
+    .section1 .bottom_sec ul
+    {
+        width: 350px;
+    }
+    .section1 .bottom_sec li
+    {   
+        width: 50%;
+        margin: 1px 0;
+        font-size: 15px;
+    }
+
+
+
+
+    
+    .section2 .bottom ,.section3 .bottom
+    {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section2 .child
+    {
+        width: 350px;
+        padding: 30px 10px;
+        margin: 0;
+    }
+
+
+
+    .section3 .bottom .image
+    {
+        width: 330px;
+        height:250px; 
+        margin: 15px;
+    }
+
+
+
+    
+    .section4 .member
+    {
+        width: 180px;
+    }
+    .section4 .container
+    {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+
+    
+ 
+    .section6 .member
+    {
+        width: 220px;
+    }
+    iframe
+    {
+        height: 120px;
+    }
+}
+@media (min-width:993px) and (max-width:1200px)
+{
+
+    .navbar .container
+    {
+        width: 1000px;
+    }
+    .navbar ul
+    {
+        width: 55%;
+    }
+
+    .section2 .child
+    {
+        width: 250px;
+        padding: 30px 10px;
+    } 
+
+    
+    .section3 .container
+    {
+        width: 100%;
+    }
+    .section3 .bottom
+    {
+        justify-content: center;
+        height: auto;
+        margin: 48px 0;
+    }
+    .section3 .bottom .image
+    {
+        width: 300px;
+        height:200px; 
+        margin: 10px;
+    }
+
+
+    
+    .section5 .bottom
+    {
+        width: 650px;
+    }
+    .section5 .right
+    {
+        width: 500px;
+        padding-right: 48px;
+    }
+
+
+
+    
+    .section6 .member
+    {
+        width: 300px;
+    }
+
+    iframe
+    {
+        height: 170px;
+    }
+
+
+    .section7 .bottom
+    {
+        width: 600px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px)
+{
+    .section6 .bottom
+    {
+        justify-content: center;
+        width: 100%;
+    }
+    .section6 .member
+    {
+        margin: 20px 15px;
+    }
+    .section6 h3
+    {
+        font-size: 18px;
+    }
+    .section6 p
+    {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .section6 a
+    {
+        font-size: 16px;
+    }   
+}
+
+
